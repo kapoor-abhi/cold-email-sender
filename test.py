@@ -36,9 +36,9 @@ def main():
 
         # 1. Construct the email message
         message = EmailMessage()
-        message.set_content('Hello! my love')
-        message['To'] = 'lavinasonp44@gmail.com'
-        message['From'] = 'kapoor.abhi.2003@gmail.com'
+        message.set_content('')
+        message['To'] = ''
+        message['From'] = ''
         message['Subject'] = 'TEST -2 '
 
         # 2. Encode the message in base64url format
